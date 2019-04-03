@@ -50,7 +50,7 @@ def encrypt():
 
     new_string = rotate_string(text, rot_int)
 
-    return "<h1>new_string</h1>"
+    return "<h1>" + new_string + "</h1>"
 
 
 #encrypt value of text parameter using rotate_string
